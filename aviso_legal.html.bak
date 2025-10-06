@@ -1,0 +1,159 @@
+<!doctype html>
+<!--[if IE 9]> <html class="no-js ie9 fixed-layout" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js " lang="en"> <!--<![endif]-->
+<head>
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Mobile Meta -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <!-- Site Meta -->
+    <title>Back to Rock</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900" rel="stylesheet"> 
+
+	<!-- Audio Player -->
+	<link rel="stylesheet" href="css/bar-ui.css" />
+
+	<!-- Custom & Default Styles -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/carousel.css">
+	<link rel="stylesheet" href="style.css">
+
+	<!--[if lt IE 9]>
+		<script src="js/vendor/html5shiv.min.js"></script>
+		<script src="js/vendor/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body class="boxed-layout">
+
+	<div class="wrapper">
+	<header class="header first-header normal-header">
+		<div class="container">
+			<nav class="navbar navbar-default">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+			            <span class="sr-only">Toggle navigation</span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			        </button>
+
+			    </div>
+			    <a class="navbar-brand" href="index.html"><img src="images/logo2.png" alt=""></a>
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+			        <ul class="nav navbar-nav navbar-left">
+			            <li><a data-scroll href="index.html">Volver</a></li>
+			            <!--li><a data-scroll href="#news">Noticias</a></li>
+			            <li><a data-scroll href="#about">La Banda</a></li>
+			            <li><a data-scroll href="#tour">Tour</a></li-->
+			        </ul>
+			        <ul class="nav navbar-nav navbar-right">
+			            <!--li><a data-scroll href="#albums">Album's</a></li>
+			            <li><a data-scroll href="#media">Media</a></li>
+			            <li><a data-scroll href="#store">Tienda</a></li>
+			            <li><a data-scroll href="#follow">Follow</a></li-->
+			        </ul>
+			    </div><!-- /.navbar-collapse -->
+			</nav>
+		</div><!-- ebd container -->
+	</header><!-- end header -->
+
+	<section class="section page-title">
+		<div class="customtitle">
+			<h2>Aviso <i>Leg</i>al</h2>
+		</div>
+	</section><!-- end section -->	
+
+	<section class="section lb blog-wrapper transparent-color">
+		<div class="container">
+			<div class="content m45">
+				<div class="row">
+				    <div class="single-blog col-md-8 col-md-offset-2">
+						<section id="aviso-legal">
+								<p><strong>Titular del sitio web:</strong> [Nombre del grupo musical]</p>
+								<p><strong>Gestión y responsabilidad:</strong> Este sitio web es gestionado y supervisado por los padres/tutores legales de los integrantes menores de edad del grupo musical.</p>
+								<p><strong>Domicilio de gestión:</strong> [Dirección opcional de los responsables]</p>
+								<p><strong>Contacto:</strong> <a href="mailto:[email de contacto gestionado por adultos]">[email de contacto gestionado por adultos]</a></p>
+								
+								<h3>Objeto del sitio web</h3>
+								<p>El sitio tiene fines <strong>informativos y promocionales</strong>, mostrando la música, actuaciones y actividades del grupo musical.</p>
+								
+								<h3><a>Protección de menores</a></h3>
+								<ul>
+									<li>Todos los contenidos con menores (fotos, videos, audios) cuentan con <strong>autorización expresa de los padres o tutores legales</strong>.</li>
+									<li>No se publica información sensible (nombre completo, dirección, colegio, teléfono, fecha de nacimiento exacta) sin consentimiento.</li>
+									<li>Se desaconseja que los menores compartan información personal a través de la web o redes vinculadas.</li>
+								</ul>
+								
+								<h3><a>Propiedad intelectual y covers</a></h3>
+								<ul>
+									<li>La música, imágenes, videos y cualquier otro contenido creativo propio pertenecen al grupo musical o a sus responsables legales.</li>
+									<li>El grupo también interpreta <strong>covers de canciones de otros artistas</strong>, respetando la legislación vigente en materia de derechos de autor y plataformas de streaming.</li>
+									<li>No se permite la reproducción, distribución o uso de los contenidos del sitio sin <strong>autorización previa</strong> de los responsables legales.</li>
+								</ul>
+								
+								<h3><a>Exclusión de responsabilidad</a></h3>
+								<ul>
+									<li>Los responsables legales no se hacen responsables de contenidos publicados por terceros en redes sociales vinculadas ni de enlaces externos.</li>
+									<li>La web se mantiene de buena fe, pero no garantiza la disponibilidad ininterrumpida del sitio ni la ausencia de errores.</li>
+								</ul>
+						</section>
+						<div class="section-button text-center">
+							<a href="index.html" class="btn btn-primary btn-lg">VIEW ON AMAZON STORE</a>
+						</div>
+				    </div><!-- end single-blog -->
+				</div><!-- end row -->
+			</div><!-- end content -->
+
+			<hr class="custom">
+
+		</div><!-- end container -->
+	</section><!-- end section -->
+
+	<section class="footer section lb nobpad">
+        <div class="copyrights">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <p>2025 - &copy;Calaveeras. All rights reserved.</p>
+                        <ul class="list-inline">
+                            <li><a href="aviso_legal.html">Aviso Legal</a></li>
+                            <li><a href="politica_privacidad.html">Política de Privacidad</a></li>
+                        </ul>
+                    </div><!-- end col -->
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </div><!-- end copyrights -->
+	</section><!-- end section -->
+
+	<!-- jQuery Files -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/parallax.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script src="js/jquery.fitvids.js"></script>
+	<script src="js/scroll.js"></script>	
+	<script src="js/custom.js"></script>
+
+	<!-- Audio Player -->
+	<script type="text/javascript" src="js/soundmanager2.js"></script>
+	<script type="text/javascript" src="js/bar-ui.js"></script>
+
+</body>
+</html>
