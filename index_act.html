@@ -37,6 +37,31 @@
 		<script src="js/vendor/respond.min.js"></script>
 	<![endif]-->
 
+<style>
+    /* Los de arriba (en columna de 4) al 60% */
+    .imagen-arriba {
+        width: 60% !important;
+        height: auto;
+    }
+
+    /* Los de abajo (en columna de 6) al 40% */
+    /* Bajamos el % porque su columna es más ancha */
+    .imagen-abajo {
+        width: 40% !important;
+        height: auto;
+    }
+
+    /* En móvil ambos vuelven a ser iguales */
+    @media (max-width: 767px) {
+        .imagen-arriba, .imagen-abajo {
+            width: 80% !important;
+            float: none !important;
+            display: block;
+            margin: 10px auto;
+        }
+    }
+</style>
+
 </head>
 <body>
 
@@ -169,24 +194,24 @@
 						<p>No nacimos de un plan. Nacimos del intento, del error… y de no querer parar.</p>
 					</div><!-- end title -->			  
   <p>Todo empezó con <em>King Ay El</em>, un proyecto que se apagó pronto, pero que nos dejó claro que esto iba en serio. De ahí surgió <em>Trío Calavera</em>, con Ibai y Asier marcando el pulso desde el inicio y una calavera punk de cresta naranja como bandera. Pero tras el primer ensayo —y unas cuerdas que no sobrevivieron—, todo quedó en pausa.</p>
-  <p>Solo por un tiempo.</p>
+  <p>Pero solo por un tiempo...</p>
 				</div><!-- end col -->
 
 				<div class="col-md-7">
 					<!--div class="home-video">
 						<iframe class="videoframe" width="560" height="315" src="https://www.youtube.com/embed/PHGWJwbfm4I"></iframe>
 					</div><!-- end video -->
-					<div class="home-video">
+					<div class="home-video"  style="text-align: center;">
 					<img width="70%" height="70%" src="images/logocon.jpg" alt="">
 					</div>
 				</div><!-- end col -->
-				
+				<br>
 				<div class="col-md-12">
 				 	<p>Un año después volvimos, distintos. Lo que iba a ser metal evolucionó hacia un rock más nuestro. Y ahí empezó todo a encajar: Asier encontró su sitio tras la batería, marcando el ritmo de cada golpe; Álvaro dejó de ser “el humorista del descanso” para convertirse en el bajo que sostiene todo; Ibai y Axel levantaron el muro de guitarras, energía y ruido; y Pablo apareció en el momento exacto para ponerse al frente, dando voz a todo lo que estaba por venir.</p>
   					<p>Durante un tiempo fuimos <em>Haip</em>. Incluso fuimos un logo imperfecto, con errores que nadie vio a tiempo. Pero siempre seguimos adelante, construyendo sobre la marcha.</p>
 					<p> Asier a la batería. Álvaro al bajo. Ibai y Axel a las guitarras. Pablo a la voz.</p>
-  					
-					<div class="section-small-title clearfix">
+  					<br><br>
+					<div class="section-small-title clearfix" style="text-align: center;">
   						<p>
 	 						Porque lo que viene, aún sonará más fuerte... Somos: LOS CALAVEERAS!!!
   						</p>
@@ -197,56 +222,62 @@
 			<hr class="invis">
 
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-12 col-md-4">
 					<div class="teambox clearfix">
-						<div class="member">
+						<!--div class="member">
 							<img src="upload/member_01.jpg" alt="" class="alignleft">
 							<i class="flaticon-electric-guitar"></i>
-						</div>
+							<img src="images/Bajo_1.png" alt="" class="alignleft">
+						</div-->
+						<img src="images/Bajo_1.png" alt="" class="alignleft imagen-arriba">
 						<h4>Alvaro</h4>
 						<small>Bajo</small>
 					</div><!-- end teambox -->
 				</div><!-- end col -->
 
-				<div class="col-md-4">
+				<div class="col-12 col-md-4">
 					<div class="teambox clearfix">
-						<div class="member">
+						<!--div class="member">
 							<img src="upload/member_02.jpg" alt="" class="alignleft">
 							<i class="flaticon-drum-set"></i>
-						</div>
+						</div-->
+						<img src="images/Bateria_1.png" alt="" class="alignleft imagen-arriba">
 						<h4>Asier</h4>
 						<small>Batería</small>
 					</div><!-- end teambox -->
 				</div><!-- end col -->
 
-				<div class="col-md-4">
+				<div class="col-12 col-md-4">
 					<div class="teambox clearfix">
-						<div class="member">
+						<!--div class="member">
 							<img src="upload/member_03.jpg" alt="" class="alignleft">
 							<i class="flaticon-electric-guitar"></i>
-						</div>
+						</div-->
+						<img src="images/Guitarra_1.png" alt="" class="alignleft imagen-arriba">
 						<h4>Axel</h4>
 						<small>Guitarra</small>
 					</div><!-- end teambox -->
 				</div><!-- end col -->
 				
-				<div class="col-md-6">
+				<div class="col-12 col-md-6">
 					<div class="teambox clearfix">
-						<div class="member">
+						<!--div class="member">
 							<img src="upload/member_03.jpg" alt="" class="alignleft">
 							<i class="flaticon-electric-guitar"></i>
-						</div>
+						</div-->
+						<img src="images/Guitarra_2.png" alt="" class="alignleft imagen-abajo">
 						<h4>Ibai</h4>
 						<small>Guitarra</small>
 					</div><!-- end teambox -->
 				</div><!-- end col -->
 				
-				<div class="col-md-6">
+				<div class="col-12 col-md-6">
 					<div class="teambox clearfix">
-						<div class="member">
+						<!--div class="member">
 							<img src="upload/member_03.jpg" alt="" class="alignleft">
 							<i class="flaticon-karaoke"></i>
-						</div>
+						</div-->
+						<img src="images/Vocalista_1.png" alt="" class="alignleft imagen-abajo">
 						<h4>Pablo</h4>
 						<small>Vocalista</small>
 					</div><!-- end teambox -->
