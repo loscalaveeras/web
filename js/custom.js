@@ -11,7 +11,7 @@
 
         $('.audioplayer').affix({
           offset: {
-            top: 1000,
+            top: 0,
             bottom: function () {
               return (this.bottom = $('.footer').outerHeight(true))
             }
